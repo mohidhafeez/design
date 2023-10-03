@@ -1,5 +1,4 @@
-import 'package:design/home_page_view.dart';
-
+import 'package:design/navbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'utils/size_config.dart';
@@ -61,7 +60,7 @@ class MyApp extends StatelessWidget {
                 scaffoldBackgroundColor: Colors.white,
               ),
               debugShowCheckedModeBanner: false,
-              home: const HomePageView(),
+              home: NavbarView(),
             );
           },
         );
